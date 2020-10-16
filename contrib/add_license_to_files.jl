@@ -24,9 +24,9 @@ const rootdirs = [
 # to exculde whole sub directories
 const excludedirs = [
     # see: https://github.com/JuliaLang/julia/pull/11073#issuecomment-98090053
-    "../base/grisu",
     "../base/ryu",
     "../src/flisp",
+    "../stdlib/TOML/test/testfiles",
 ]
 
 const skipfiles = [
